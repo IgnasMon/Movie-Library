@@ -1,0 +1,23 @@
+{
+    "name": "mov.io-movie-library",
+    "description": "PHP project of a movie library, based on a template made by Mark de Haan (Ahrnuld) PHP MVC basic",
+    "type": "project",
+    "authors": [
+        {
+            "name": ["Mark de Haan (Ahrnuld)", "Ignas Montvydas"]
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": ".",
+            "App\\Controllers\\": "./controllers",
+            "App\\Models\\": "./models",
+            "App\\Services\\": "./services",
+            "App\\Repositories\\": "./repositories",
+            "App\\Views\\": "./views"
+        }
+    }
+}

@@ -1,0 +1,102 @@
+/* Page Navigation */
+.logo {
+    width: 200px;
+    height: 60px;
+}
+
+body {
+    /*margin-bottom: 60px;*/
+    min-height: 100%;
+}
+
+#topNav .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+#topNav .nav-item {
+    padding-left: 1em;
+}
+
+#topNav .nav_icon {
+    height: 30px;
+}
+
+.nav_division {
+    border-left: white solid 3px;
+}
+
+#topNav .nav-item a.nav-link {
+    text-align: center;
+    color: white;
+}
+
+/* Dropdown */
+#dropdownManagement, #dropdownUser {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    z-index: 1000;
+}
+
+#managementDropdown .dropdown-item {
+    color: black;
+}
+
+/* Nav Selected Page */
+.bold-nav-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Avatar Icon */
+.avatarIcon {
+    background-color: white;
+    height: 30px;
+    border-radius: 15px;
+}
+
+/* Forms */
+.formContainers {
+    margin-top: 3em;
+    background: darkgrey;
+    padding: 20px;
+    border-radius: 25px;
+    width: 50%;
+}
+
+.modeSwitch li{
+    text-align: center;
+    width: 30%;
+}
+
+.formContent {
+    margin: 20px;
+    text-align: center;
+}
+
+.formContent .inputField{
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 70%;
+}
+
+.formContainers button {
+    margin-bottom: 20px;
+    width: 30%;
+}
+
+/* Footer */
+footer a, footer p, footer span{
+    color: white;
+}
+
+footer a {
+    text-decoration: underline;
+}

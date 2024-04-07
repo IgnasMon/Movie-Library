@@ -1,12 +1,12 @@
 # Movie.io - movie library website
 
-[Github Repository](https://github.com/IgnasMon/Java2.1InhollandFinalAssignment)
+[Github Repository](https://github.com/IgnasMon/Movie-Library)
 
 ## Project Details
 
 ### Startup steps
 
-- Clone the project from [Github Repository](https://github.com/IgnasMon/Java2.1InhollandFinalAssignment).
+- Clone the project from [Github Repository](https://github.com/IgnasMon/Movie-Library).
 - Open the project using desired IDE _(This was developed in [IntelliJ](https://www.jetbrains.com/idea/))_.
 - Open terminal in the root of the project _(Should see files and directories like __app__, __sql__, this __README.md__)_.
 - Be sure that you have [Docker Desktop](https://www.docker.com/products/docker-desktop/) running!
